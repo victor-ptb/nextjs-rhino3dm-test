@@ -11,6 +11,7 @@ const nextConfig = {
     };
     config.experiments = {
       asyncWebAssembly: true,
+      syncWebAssembly: true,
     };
     return config;
   },
